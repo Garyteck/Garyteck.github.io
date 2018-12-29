@@ -21,7 +21,7 @@
     a {
         color: #4d6dad;
         transition: 0.5s ease;
-        &:hover {
+        &:hover:not(.mid) {
             color: #223253;
             background-color: #f4efeb;
         }

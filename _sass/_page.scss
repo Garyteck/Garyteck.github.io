@@ -23,7 +23,7 @@
         >h1 {
             margin-bottom: -10px;
         }
-        a:not([title]){
+        a:not([title]):not(.mid){
             word-break: break-all;
         }
         ul {
