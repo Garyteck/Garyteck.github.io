@@ -9,15 +9,15 @@
 title: Financial Independence
 brief-intro: Save and Make more money
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://garyteck.github.io" # the base hostname & protocol for your site
+url: "https://garyteck.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
-#twitter_username: gaohaoyang126
-#facebook_username: gaohaoyang.water
+twitter_username: gaohaoyang126
+facebook_username: gaohaoyang.water
 #github_username:  Gaohaoyang
-#email: gaohaoyang126@126.com
+email: test@financialindependence.com
 #weibo_username: 3115521wh
 #zhihu_username: gaohaoyang
 #linkedIn_username: gaohaoyang

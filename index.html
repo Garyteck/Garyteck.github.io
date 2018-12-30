@@ -4,9 +4,6 @@ layout: default
 
 <div class="page clearfix" index>
     <div class="left">
-        <h1>Welcome to Gary's Blog!</h1>
-        <small>Blogging my way to FIRE</small>
-        <hr>
         <ul>
             {% for post in paginator.posts %}
               <li>
@@ -68,6 +65,16 @@ layout: default
     <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
     <div class="right">
         <div class="wrap">
+            <div class="side">
+              <div>
+                  <i class="fa fa-user-circle" aria-hidden="true"></i>
+                  About me
+              </div>
+              <div class="center">
+                <img src="images/blog_images.png" id="author" class="rounded"> </img>
+                <p> I am Gary PIERRE-LOUIS and I want to be financially independent. I am blogging my way to Financial independence. </p>
+              </div>
+            </div>
             <div class="side">
                 <div>
                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
