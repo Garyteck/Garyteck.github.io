@@ -58,3 +58,7 @@ excerpt_separator: "\n\n\n\n"
 # paginate
 gems: [jekyll-paginate]
 paginate: 6
+
+#facebook like box
+fb-like-box: yes
+fb-page-url: https://www.facebook.com/Financial-Independence-Online-1173489342814210

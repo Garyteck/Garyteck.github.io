@@ -8,19 +8,25 @@ type: page
 
 ## About me
 
-My name is Gary PIERRE-LOUIS, I am a 30 year old software developer living in Denmark, with my girlfriend and our daughter. I want to reach financial independence at 40 years old.
+My name is Gary Pierre-Louis, I live in Denmark, with my girlfriend and our daughter. I want to build a strong financial safety net. A safety net that will enable me to stop working forever or to spend my time on whatever hobby-side-project I want, no matter if it is profitable or not.
 
-> Financial independence means you have enough wealth to live on without working. Financially independent people have assets that generate income (cash flow) that is at least equal to their expenses.
+### Introducing Financial Independence
 
-## What are my goals
+> [Financial independence ](https://en.wikipedia.org/wiki/Financial_independence) means you have enough wealth to live on without working. Financially independent people have assets that **generate income** (cash flow) that is at least equal to their **expenses**.
 
-I want to reach financial independence when I am 40 years old.
 
-## How will I reach financial Independence
+I must have a tight control of my expenses. I am quite critical of our consumer society and I will happily live with fewer stuffs.
+But no matter how much I reduce, there are many expenses that must be paid for.
 
-## Frugality
-## Anti Consumption
-## What will I do after financial independence
-## Comments
+### My starting portfolio
+
+At the beginning of this journey, my only asset was the apartment I owned. I had to get into debt to buy it, but this is the only debt I owe. [See me current portfolio]({{site.url}}/portfolio)
+
+### My FI strategy
+
+I will focus on assets that generate income ( shares and lending ). I will never try to time the market , I will have a long term strategy.
+
+
+### Comments
 
 {% include comments.html %}
