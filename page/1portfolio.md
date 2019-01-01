@@ -8,11 +8,10 @@ type: page
 
 | Asset | Value |
 | ------ | -----------: |
-| Apartment   | +31000€ |
-| p2p Lending | +4000 €  |
-| Shares    | +1600 € |
-| Total    | +36600 € |
-
-## Comments
+| Apartment   | 31000€ |
+| Emergency fund   | 5500€ |
+| p2p Lending | 4000 €  |
+| Shares    | 1600 € |
+| Total    | **42100 €** |
 
 {% include comments.html %}
