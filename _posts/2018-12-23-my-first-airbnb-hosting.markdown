@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "The Airbnb host to-do list"
-categories: RealEstate
-tag: airbnb
+categories: ["Real Estate"]
+tag: Airbnb
 author: Gary
 ---
 * content
