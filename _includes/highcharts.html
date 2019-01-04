@@ -1,0 +1,101 @@
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+
+<!-- Additional files for the Highslide popup effect -->
+<script src="https://www.highcharts.com/media/com_demo/js/highslide-full.min.js"></script>
+<script src="https://www.highcharts.com/media/com_demo/js/highslide.config.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="https://www.highcharts.com/media/com_demo/css/highslide.css" />
+
+<div id="{{include.id}}" style="min-width: 310px; height: 400px; margin: 40px auto"></div>
+
+<script type="text/javascript">
+
+  Highcharts.chart({{include.id}}, {
+    chart: {
+        height: 400,
+    },
+    title: {
+        text: '{{include.title}}'
+    },
+    legend: {
+        enabled: true
+    },
+    data: {
+        csvURL: window.location.origin + '{{include.url}}'
+    },
+    tooltip: {
+        shared: true,
+        valueDecimals: 2,
+    },
+    xAxis: {
+        type: 'category',
+        labels: {
+            style: {
+                fontSize: '16px'
+            }
+        },
+        crosshair : true
+    },
+    yAxis: [{ // Primary yAxis
+        labels: {
+            format: '{value} €'
+        },
+        title: {
+            text: 'Total Invested'
+        }
+    },{ // Primary yAxis,
+        labels: {
+            format: ''
+        },
+        title: {
+            text: ''
+        }
+    }, { // Secondary yAxis
+        title: {
+            text: ''
+        },
+        labels: {
+            format: '{value} %'
+        },
+        opposite: true,
+        enabled : false
+    }],
+    series: [{
+        type: 'column',
+        yAxis : 0,
+        tooltip: {
+            valueSuffix: ' €'
+        },
+        dataLabels: {
+            enabled: true,
+            format: '{point.y} €'
+        }
+    }, {
+        type: 'column',
+        yAxis : 1,
+        tooltip: {
+            valueSuffix: ' €'
+        },
+        dataLabels: {
+            enabled: true,
+            format: '{point.y} €'
+        },
+        color: '#008000',
+        negativeColor: '#FF0000'
+    }, {
+        type: 'line',
+        yAxis : 2,
+        tooltip: {
+            valueSuffix: ' %'
+        },
+        dataLabels: {
+            enabled: true,
+            format: '{point.y} %'
+        }
+    }]
+});
+</script>

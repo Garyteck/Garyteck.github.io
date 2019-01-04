@@ -9,11 +9,7 @@ published: true
 ---
 {% include companies.html %}
 
-{%- capture data_url -%}
-  {{- site.url | append: "/data/december-revenue.json" -}}
-{%- endcapture -%}
-
-{% include bar_graph.html  url=data_url %}
+{% include highcharts.html  url="/data/december-revenue.csv"  id="dec_container" %}
 
 This is my first passive income revenue update. I am very happy of my return on investment, my profits have never been that high. This is an excellent month. Let's take a closer look at all these revenue streams.  
 
