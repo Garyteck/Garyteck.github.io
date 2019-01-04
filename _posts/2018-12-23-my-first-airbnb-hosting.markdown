@@ -5,15 +5,16 @@ categories: ["Real Estate"]
 tag: Airbnb
 author: Gary
 ---
+
+
+{%- capture airbnb_image_url -%}
+  {{- site.url | append: "/images/airbnb-apartment.jpg" -}}
+{%- endcapture -%}
+
+{% include textonimage.html text="Start making money on airbnb" url="https://www.airbnb.com/r/gpierrelouis1" imageurl=airbnb_image_url %}
+
 * content
 {:toc}
-
-<div class="module mid">
-  <a class="mid" href="https://www.airbnb.com/r/gpierrelouis1" style="color:white;">
-    <strong>Start making money on airbnb</strong>
-  </a>
-</div>
-
 Renting your apartment on Airbnb is a good way to make extra money. Here is what I did before opening the doors of my apartments to guests. You can follow this recipe and start earning money while on holidays.
 
 ### 1. Clean your apartment
