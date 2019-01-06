@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "December 2018 passive income monthly update"
+title:  "December 2018 p2plending income"
+description: Revenue from p2plending platforms. FastInvest, Mintos, Twino and Envestio interests and promo offers.
 categories: ["Revenue Report"]
 tag: ["p2plending"]
 author: Gary
 published: true
+lang: en_GB
+last_modified_at: 2019-01-06
 
 ---
 {% include companies.html %}

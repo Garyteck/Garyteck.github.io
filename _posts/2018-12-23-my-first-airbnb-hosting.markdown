@@ -3,12 +3,17 @@ layout: post
 title:  "The Airbnb host to-do list"
 categories: ["Real Estate"]
 tag: Airbnb
+description: What to do before your airbnb guest arrive. This is a perfect to-do list for the airbnb host.
+image: /images/airbnb-apartment.jpg
+lang: en_GB
 author: Gary
+last_modified_at: 2019-01-06
+
 ---
 
 
 {%- capture airbnb_image_url -%}
-  {{- site.url | append: "/images/airbnb-apartment.jpg" -}}
+  {{- site.url | append: "/images/airbnb-apartment.jpeg" -}}
 {%- endcapture -%}
 
 {% include textonimage.html text="Start making money on airbnb" url="https://www.airbnb.com/r/gpierrelouis1" imageurl=airbnb_image_url %}
