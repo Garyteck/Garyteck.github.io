@@ -17,7 +17,7 @@ My name is Gary Pierre-Louis, I live in Denmark, with my girlfriend and our daug
 
 ## Budgeting : controlling my expenses
 
-I must have a tight control of my expenses. I have always frugal, but no matter how much I reduce, there are expenses that must be paid for. [See how my family is budgeting.]({{site.url}}/budget)
+I must have a tight control of my expenses. I have always been frugal, but no matter how much I reduce, there are expenses that must be paid for. [See how my family is budgeting.]({{site.url}}/budget)
 
 ## My starting portfolio
 
@@ -26,7 +26,7 @@ I also have an emergency fund of 5500 € in a bank account that offers 5% inter
 
 ## FI Strategy
 
-Every month, I will buy assets that generate income. I am young, I will be quite aggressive but take reasonable risk. Eventually those assets will match my expenses and I will be financially independent. [If you are curious you can take a look at my revenue report.]({{site.url}}/category/revenue_report)
+Every month, I will buy assets that generate income. I am young, I will be quite aggressive but take reasonable risk. Eventually those assets will match my expenses and I will be financially independent. [If you are curious you can take a look at my revenue report.]({{site.url}}/category/#Revenue report)
 
 **What is your strategy ? What would you do differently ?**
 
